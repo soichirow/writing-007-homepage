@@ -1,0 +1,39 @@
+.img-container {
+    width: 100px;
+    /* or your desired size */
+    height: 100px;
+    /* or your desired size */
+    border-radius: 20px;
+    /* Adjust the border-radius to match your design */
+    overflow: hidden;
+    /* Ensure the image doesn't break out of the border-radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Soft shadow around the image */
+    background-color: white;
+    /* Background color of the image container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Cover the container without distorting the aspect ratio */
+}
+
+.details {
+    margin-top: 10px;
+}
+
+body {
+    background-color: #f8f9fa;
+    /* Light gray background */
+}
+
+.introduction {
+    text-align: center;
+    margin-bottom: 30px;
+}
